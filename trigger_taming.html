@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trigger Taming Tool</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Trigger Taming Tool</h1>
+<div class="world-cloud">
+    <p><label>Air out all your thoughts</label></p>
+    <textarea rows="10" cols="50" name="thoughts" required>I feel...</textarea>
+    <br>
+    <input type="submit" value="Generate Word Cloud">
+</div>
+<div class="emotion">
+    <p><label>What emotions are you feeling?</label></p>
+    <input type="text" name="emotion1" required></input>
+    <br />
+    <input type="text" name="emotion2" required></input>
+    <br />
+    <input type="text" name="emotion3" required></input>
+</div>
+<div class="container">
+    <div class="carousel-view">
+        <!-- Left Button-->
+        <button id="prev-btn" class="prev-btn"></button>
+        <!-- List Container -->
+        <div id="item-list" class="item-list">
+            <!-- Items -->
+            <img id="item" class="item" src="./static/Emotion-Wheel-I.jpg"/> 
+            <img id="item" class="item" src="./static/Emotion-Wheel-II.jpg"/> 
+            <img id="item" class="item" src="./static/Emotion-Wheel-II.jpg"/> 
+            <img id="item" class="item" src="./static/Emotion-Wheel-II.jpg"/> 
+            <img id="item" class="item" src="./static/Emotion-Wheel-II.jpg"/> 
+        </div>
+        <!-- Right Button -->
+        <button id="next-btn" class="next-btn"></button>
+    </div>
+</div>
+<div class="sensory-info">
+    <p><label>Any sounds, images, smells or memories popping up?</label></p>
+    <input type="text" name="sensor1" required></input>
+    <br />
+    <input type="text" name="sensor2" required></input>
+    <br />
+    <input type="text" name="sensor3" required></input>
+</div>
+
+</body>
+</html>
